@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>karteczk.io</title>
+       <meta charset="UTF-8"> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="styles/main.css">
+       <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>karteczk.io</h1>
+            <p id="author">alpha 1.0 created by banjo_penisek ^^ 2020 ©</p>
+        </header>
+        <aside id="chat">
+            <h2>Chat</h2>
+            <section id="messages_area">
+                <ul id="messages"></ul>
+            </section>
+            <!--<form id="chat_form"><input type="text" id="chat_input"></form>-->
+            <form action="" id="chat_input">
+                <input id="m" autocomplete="off" />
+            </form>
+        </aside>
+        <section id="main_board">
+            <table id="player_table">
+                <tr>
+                    <th>Gracz</th>
+                    <th>Postać</th>
+                </tr>
+            </table>
+        </section>
+        <aside id="player_info">
+            <p class="player" id="player_name">Buba</p>
+            <p class="player" id="player_points"></p>
+            <div id="check">
+                <button id="correct" onclick="show()">Correct</button>
+                <button id="give_up">Give up</button>
+            </div>
+        <footer>
+
+        </footer>
+        
+    </body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</html>

@@ -1,0 +1,137 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Baloo 2', cursive;
+}
+
+#author {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#messages_area {
+    height: 30%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+#chat {
+    width: 20%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin: 0;
+}
+
+#main_board {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player_info {
+    background-color: rgb(98, 224, 155);
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    float: right;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main_content {
+    border: solid;
+    width: 50%;
+}
+
+.player {
+    margin: 1vw;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    font-size: 75px;
+    margin: auto;
+    width: 50%;
+}
+
+table, tr, th, td {
+    border: solid;
+}
+
+table {
+    margin: 30px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th {
+    width: 300px;
+}
+
+td {
+    padding: 5px;
+}
+
+#check {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#messages_area {
+    background-color: whitesmoke;
+    width: 90%;
+}
+
+#chat_input {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+#m {
+    width: 97%;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+#messages > li {
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
